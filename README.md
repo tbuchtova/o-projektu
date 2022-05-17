@@ -1,1 +1,1 @@
-# o-projektu
+#  O projektu
