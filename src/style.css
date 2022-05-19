@@ -9,7 +9,7 @@ html {
 }
 
 .container {
-  max-width: 26rem;
+  max-width: 35rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -21,9 +21,6 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+nav a {
+  margin: 10px;
 }
