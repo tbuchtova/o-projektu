@@ -4,7 +4,7 @@ import './style.css';
 const Footer = () => {
   return (
     <>
-      <footer className="footer">
+      <footer>
         <p className="footer-text">
           Vytvořeno pro Czechitas - Digitální akademie web Praha 2022
         </p>

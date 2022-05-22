@@ -6,7 +6,7 @@ header {
 .header {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -15,6 +15,6 @@ header {
 }
 
 .header-icon {
-  width: 25%;
-  height: 25%;
+  width: 15%;
+  height: 15%;
 }

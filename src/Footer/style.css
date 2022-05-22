@@ -1,14 +1,14 @@
-.footer {
-  background-color: #95f0ac;
-  margin-top: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  height: 10%;
+footer {
+  background-color: #035e7b;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-text {
-  font-size: 1vw;
-  padding: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
 }
-
-/* nedaří se mi to přilepit ke spodku stránky :D */

@@ -24,22 +24,11 @@ p {
   max-width: 35rem;
   margin-right: auto;
   margin-left: auto;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
-
-nav a {
-  margin: 10px;
+  padding-bottom: 40px;
 }
 
 /*---------  obsah outletu (profily, o projektu apod. )-------------------------------*/
 
-/*kdyby tě napadlo, jak tohle upravit, tak hurá do toho, laťka je nízko*/
 .profile-pic {
   width: 70%;
   border-radius: 10vw;
@@ -47,7 +36,7 @@ nav a {
 
 .card {
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 16px;
 }
 
 .card ul {
@@ -56,11 +45,28 @@ nav a {
 
 .card h2,
 .card h3 {
-  color: rgb(170, 1, 1);
+  color: #035e7b;
 }
 
 .quote {
   font-style: italic;
+}
+
+.card__text--center {
+  text-align: center;
+}
+
+.card__text--center a {
+  text-decoration: none;
+  color: black;
+}
+
+.card__text--center a:hover {
+  color: #035e7b;
+}
+
+.card__text--center a:visited {
+  color: #035e7b;
 }
 
 /*--------- stylování navigace v Outletu -------------------*/
@@ -68,21 +74,15 @@ nav a {
 .nav-main {
   text-align: center;
   padding: 0.5rem;
-  background-color: rgba(175, 4, 4, 0.801);
+  background-color: #035e7b;
 }
 
 .nav-main a {
   text-decoration: none;
-  color: rgb(13, 70, 13);
-  padding-left: 1vw;
-  padding-right: 1vw;
+  color: white;
+  margin: 10px;
 }
 
 .nav-main a:hover {
-  color: aquamarine;
-}
-/*---------- container ---------------------------------------*/
-
-.container {
-  align-items: center;
+  color: #eff1c5;
 }

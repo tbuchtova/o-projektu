@@ -12,18 +12,17 @@ const Homepage = () => {
         <p>TÝM: Kateřina Mašková & Tereza Plecitá</p>
         <p>MENTOŘI: Boris Musatov & Věra Kasperová</p>
         <h3>Odkazy:</h3>
-        <p>
-          wireframes:{' '}
+        <p className="card__text--center">
           <a
             target={'_blank'}
             href="https://www.figma.com/file/uWnLByoQDETiyTVrYe48fJ/Booklog?node-id=0%3A1"
           >
-            WIP na Figmě
+            Wireframes
           </a>
         </p>
-        <p>
-          <a target={'_blank'} href="">
-            odkaz na stránky
+        <p className="card__text--center">
+          <a target={'_blank'} href="https://github.com/tplecita/o-projektu">
+            Zdrojový kód
           </a>
         </p>
       </div>
