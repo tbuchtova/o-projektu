@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+
+  background-color: #95f0ac;
+  margin: 0;
+  padding: none;
+}
+
+.header h1 {
+  font-size: 3vw;
+  color: rgb(255, 38, 0);
+}
+
+.header-icon {
+  width: 10%;
+  height: 10%;
+}
+
+/*feel free to smazat ikonku, nepřišla jsem na to, jak to hodit, aby to bylo do řádku místo pod sebou*/

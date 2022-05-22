@@ -8,6 +8,13 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+
 .container {
   max-width: 35rem;
   margin-right: auto;
@@ -23,4 +30,54 @@ header {
 
 nav a {
   margin: 10px;
+}
+
+/*---------  obsah outletu (profily, o projektu apod. )-------------------------------*/
+
+/*kdyby tě napadlo, jak tohle upravit, tak hurá do toho, laťka je nízko*/
+.profile-pic {
+  width: 70%;
+  border-radius: 10vw;
+}
+
+.card {
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.card ul {
+  text-align: justify;
+}
+
+.card h2,
+.card h3 {
+  color: rgb(170, 1, 1);
+}
+
+.quote {
+  font-style: italic;
+}
+
+/*--------- stylování navigace v Outletu -------------------*/
+
+.nav-main {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: rgba(175, 4, 4, 0.801);
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: rgb(13, 70, 13);
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.nav-main a:hover {
+  color: aquamarine;
+}
+/*---------- container ---------------------------------------*/
+
+.container {
+  align-items: center;
 }

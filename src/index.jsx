@@ -6,26 +6,29 @@ import Projekt from './Projekt';
 import Kata from './Kata';
 import Terka from './Terka';
 import Homepage from './Homepage';
+import Footer from './Footer';
+import Header from './Header';
 
-const App = () => (
-  <div className="container">
-    <header>
-      <h1>O projektu Booklog</h1>
-    </header>
-    <main>
-      <nav>
-        <Link to="/">Homepage</Link>
-        <Link to="/projekt">O projektu</Link>
-        <Link to="/kata">Kateřina Mašková</Link>
-        <Link to="/terka">Tereza Plecitá</Link>
-      </nav>
-      <Outlet />
-    </main>
-    <footer>
-      <p>Vytvořeno pro Czechitas - Digitální akademie web Praha 2022</p>
-    </footer>
-  </div>
-);
+const App = () => {
+  return (
+    <>
+      <Header />
+
+      <main>
+        <nav className="nav-main">
+          <Link to="/">Homepage</Link>
+          <Link to="/projekt">O projektu</Link>
+          <Link to="/kata">Kateřina Mašková</Link>
+          <Link to="/terka">Tereza Plecitá</Link>
+        </nav>
+        <div className="container">
+          <Outlet />
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
+};
 
 createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
