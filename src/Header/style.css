@@ -1,20 +1,20 @@
+header {
+  background-color: #eff1c5;
+  margin: 0;
+}
+
 .header {
   display: flex;
-  flex-wrap: nowrap;
-
-  background-color: #95f0ac;
-  margin: 0;
-  padding: none;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .header h1 {
-  font-size: 3vw;
-  color: rgb(255, 38, 0);
+  color: #035e7b;
 }
 
 .header-icon {
-  width: 10%;
-  height: 10%;
+  width: 25%;
+  height: 25%;
 }
-
-/*feel free to smazat ikonku, nepřišla jsem na to, jak to hodit, aby to bylo do řádku místo pod sebou*/
